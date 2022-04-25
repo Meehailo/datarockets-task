@@ -1,13 +1,20 @@
 # RUN
 
 **docker-compose build
+
 **docker-compose run -d db
+
 **docker-compose run --rm app bash
+
 inside the container:
 **rails db:create 
+
 **rails db::migrate
+
 **exit
+
 local:
+
 **docker-compose up app
 
 server start on localhost:3000
